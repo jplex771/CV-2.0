@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "am-class"
+assignment: "react-cv"
+owner:
+  username: "jplex771"
+  id: 246735590
+  accepted_at: "2026-10-12T12:50:41Z"
+source:
+  owner: "CSCI4300-Web-Programming"
+  owner_id: 212650580
+  repo: "react-cv-template-c50"
+  branch: "main"

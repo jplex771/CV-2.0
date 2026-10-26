@@ -1,0 +1,119 @@
+{
+  "name": "Jean-Pierre de la Reza",
+  "tagline": "I am a programmer interested in learning the depths of the mechanics of software technology, and I wish to use that knowledge to develope software that is easy to use, efficient, and highly benefitial to its users and to society as a whole.",
+  "headshot": "/images/jadlr_headshot.jpg",
+  "contact": {
+    "address": "325 Willow Street, Athens, GA, 30601",
+    "phone": "(404) 422-4783)",
+    "email": "jadlr.ps15@proton.me",
+    "linkedin": "https://www.linkedin.com/in/jean-pierre-de-la-reza-16a380416/"
+  },
+  "education": {
+    "school": "University Name",
+    "gpa": "3.78",
+    "degree": "Bachelor of Science in Computer Science",
+    "graduation_date": "May 2028"
+  },
+  "honors_and_awards": [
+    {
+      "id": 1,
+      "honor": "Zell Miller Scholarship",
+      "date": "2024"
+    },
+    {
+      "id": 2,
+      "honor": "9th place in Nationals for Technology Student Association (TSA) Animatronics competition",
+      "date": "2024"
+    },
+    {
+      "id": 3,
+      "honor": "8th place in Nationals for TSA Board Game competition",
+      "date": "2023"
+    }
+  ],
+  "skills": [
+    "Java",
+    "C",
+    "C#",
+    "C++",
+    "HTML",
+    "CSS",
+    
+    "Typescript",
+    "React",
+    "SpringBoot"
+  ],
+  "leadership_and_experience": [
+    {
+      "id": 1,
+      "position": "Student Worker at Bolton dining commons - Currently Student Supervisor",
+      "location": "Bolton Dining Commons",
+      "date": "Sept 2024 - Present",
+      "link": "https://dining.uga.edu/location/bolton-dining-commons/"
+    },
+    {
+      "id": 2,
+      "position": "I was a volunteer camp counselor for a two-week summer camp where I led 5 13-year-old boys",
+      "location": "Camp Tzadi 2026",
+      "date": "June 9-21, 2026"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Pong Game",
+      "image": "/images/pong-game-card.png",
+      "descr": [
+        {
+          "id": 1,
+          "point": "Based in the Unity Game Engine environment"
+        },
+        {
+          "id": 2,
+          "point": "Coded in C#"
+        },
+        {
+          "id": 3,
+          "point": "Utilizes 2D vector math for calculating bounce mechanics"
+        },
+        {
+          "id": 4,
+          "point": "Uses C# events for smoother communication between scripts"
+        }
+        
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Grid Diagonal Sums Calculator",
+      "image": "/images/number-grid.png",
+      "descr": [
+        {
+          "id": 1,
+          "point": "Used C to code a system that calculates the number of diagonal sums adding up to a specified value are in a grid of nombers"
+        },
+        {
+          "id": 2,
+          "point": "Used pthreads to increase the efficiency of the system when dealing with large data grids"
+        }
+        
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Multi-API Image Background Remover App",
+      "image": "/images/CatPic-NoBack.jpeg",
+      "descr": [
+        {
+          "id": 1,
+          "point": "Used Java/JavaFX and 4 RESTful APIs to develop an app that removes the background of an image"
+        },
+        {
+          "id": 2,
+          "point": "Incorporates an API image retreival system featuring a general image search, random cat pictures, and pictures of random AI generated people"
+        }
+        
+      ]
+    }
+  ]
+}
