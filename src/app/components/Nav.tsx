@@ -18,7 +18,7 @@ export default function Nav({ name, context }: NavProps) {
             <p className="nonclickable-in-nav ">{resumeData.name}</p>
             <p>
                 <Link 
-                    className="nav-text bg-blue-100 text-black rounded-lg p-2 hover:bg-slate-600 transition-[500]" 
+                    className="nav-text bg-slate-800 text-white p-2 hover:bg-slate-600 transition-[500]" 
                     href={context.toLocaleLowerCase() == homePage ? "/contact" : "/"}>
                         {context.toLowerCase() == homePage ? "Contact" : "About"} {name}
                 </Link>

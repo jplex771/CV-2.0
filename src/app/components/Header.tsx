@@ -14,11 +14,17 @@ type HeaderProps = {
 export default function Header({ name, headshot, contact, tagline }: HeaderProps) {
  
   return (
-    <header className="bg-cyan-50 shadow-md shadow-slate-300 flex flex-col items-center">
+    <header className="bg-cyan-50 shadow-md shadow-slate-300 border-b-1 border-double border-slate-50 flex flex-col items-center">
       <h1 className="text-3xl">{name}</h1>
       {
         headshot !== undefined ?
-        <Image id="profile-pic" src={headshot} width="200" height="300" alt="Headshot of Jean-Pierre de la Reza"/>
+        <Image 
+          className="rounded-full border-[5] border-stone-100 shadow-lg shadow-slate-300"
+          id="profile-pic" 
+          src={headshot} 
+          width="200" 
+          height="300" 
+          alt="Headshot of Jean-Pierre de la Reza"/>
         : <></>
       }
       <div className="header-text my-3 mx-2 flex flex-col items-center">

@@ -6,12 +6,18 @@ type EdProps = {
 
 export default function EducationList({ education }: EdProps) {
   return (
-    <section>
-      <dl>
+    <section className="flex justify-center">
+      <dl className="grid grid-rows-2 gap-5">
+        <div className="grid grid-cols-2 gap-15 content-center border-b-1 border-slate-300">
           <dt>{education.school}</dt>
-          <dd>{education.gpa}</dd>
+          <dd>
+            GPA:  {education.gpa}
+          </dd>
+        </div>
+        <div className="grid grid-cols-2 gap-10 content-center border-b-1 border-slate-300">
           <dt>{education.degree}</dt>
-          <dd>{education.graduation_date}</dd>
+          <dd>Graduate:  {education.graduation_date}</dd>
+        </div>
       </dl>
     </section>
   );

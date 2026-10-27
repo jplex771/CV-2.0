@@ -37,35 +37,38 @@ export default function Home() {
         contact={contact}
         tagline={tagline}
       />
-       <Section title={"Education"}>
+      <div className="mx-25 py-10 px-10 shadow-[-5px_0_15px_-5px_rgba(0,0,0,0.1),5px_0_15px_-5px_rgba(0,0,0,0.1)]">
+        <Section title={"Education"}>
         <EducationList 
           education={education}
         />
-      </Section>
-
-      <Section title={"Honors and Awards"}>
-        <Honors 
-          honors={honors_and_awards}
-        />
-      </Section>
-
-      <Section title={"Skills"}>
-        <Skills 
-          skills={skills}
-        />
-      </Section>
-
-      <Section title={"Leadership and Experience"}>
-        <Experience 
-          experiences={leadership_and_experience}
-        />
-      </Section>
-
-       <Section title={"Projects"}>
-        <Projects 
-          projects={projects}
-        />
-      </Section>
+        </Section>
+  
+        <Section title={"Honors and Awards"}>
+          <Honors 
+            honors={honors_and_awards}
+          />
+        </Section>
+  
+        <Section title={"Skills"}>
+          <Skills 
+            skills={skills}
+          />
+        </Section>
+  
+        <Section title={"Leadership and Experience"}>
+          <Experience 
+            experiences={leadership_and_experience}
+          />
+        </Section>
+  
+        <Section title={"Projects"}>
+          <Projects 
+            projects={projects}
+          />
+        </Section>
+      </div>
+      
       <Footer 
         name={name}
         contactUrl={context.url}

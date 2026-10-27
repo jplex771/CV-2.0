@@ -41,16 +41,18 @@ export default function Contact() {
     }
 
     return (
-        <main>
-            <Nav 
-                name={name}
-                context={context.thisPage}
-            />
-            <Header
-              name={name}
-              contact={contact}
-            />
-            <hr/>
+        <main className="min-h-screen bg-white text-black flex flex-col justify-between">
+            <div>
+                <Nav 
+                    name={name}
+                    context={context.thisPage}
+                />
+                <Header
+                    name={name}
+                    contact={contact}
+                />
+            </div>
+            
             <form 
                 className="one-col" 
                 action="https://formsubmit.co/1aebbc33fe43890a28fa0364bc14a7a1" 

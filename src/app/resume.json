@@ -1,6 +1,6 @@
 {
   "name": "Jean-Pierre de la Reza",
-  "tagline": "I am a programmer interested in learning the depths of the mechanics of software technology, and I wish to use that knowledge to develope software that is easy to use, efficient, and highly benefitial to its users and to society as a whole.",
+  "tagline": "I am a programmer interested in learning the depths of the mechanics of software technology, and I wish to use that knowledge to develop software that is easy to use, efficient, and highly benefitial to its users and to society as a whole.",
   "headshot": "/images/jadlr_headshot.jpg",
   "contact": {
     "address": "325 Willow Street, Athens, GA, 30601",
@@ -9,7 +9,7 @@
     "linkedin": "https://www.linkedin.com/in/jean-pierre-de-la-reza-16a380416/"
   },
   "education": {
-    "school": "University Name",
+    "school": "University of Georgia",
     "gpa": "3.78",
     "degree": "Bachelor of Science in Computer Science",
     "graduation_date": "May 2028"
